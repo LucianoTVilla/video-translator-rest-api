@@ -10,7 +10,7 @@ COPY package*.json ./
 RUN npm ci
 
 #Install FFMPEG
-RUN apt-get install ffmpeg -y
+RUN  apt-get update && apt-get install 'ffmpeg' 
 
 # Bundle app source
 COPY . .
