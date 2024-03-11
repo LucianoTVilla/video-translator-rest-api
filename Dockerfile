@@ -9,6 +9,9 @@ COPY package*.json ./
 # Install app dependencies
 RUN npm ci
 
+#Install FFMPEG
+RUN apt-get install ffmpeg -y
+
 # Bundle app source
 COPY . .
 
