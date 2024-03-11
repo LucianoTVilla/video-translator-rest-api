@@ -1,21 +1,7 @@
-# 🚀 Express TypeScript Boilerplate 2024
-
-[![Docker Image CI](https://github.com/edwinhern/express-typescript-2024/actions/workflows/docker-image.yml/badge.svg?branch=master)](https://github.com/edwinhern/express-typescript-2024/actions/workflows/docker-image.yml)
-[![CodeQL](https://github.com/edwinhern/express-typescript-2024/actions/workflows/codeql.yml/badge.svg)](https://github.com/edwinhern/express-typescript-2024/actions/workflows/codeql.yml)
-[![Build Express+Typescript Application](https://github.com/edwinhern/express-typescript-2024/actions/workflows/test.yml/badge.svg)](https://github.com/edwinhern/express-typescript-2024/actions/workflows/test.yml)
-
 ## 🌟 Introduction
 
-Welcome to the Express TypeScript Boilerplate 2024 – a streamlined, efficient, and scalable foundation for building powerful backend services. This boilerplate merges modern tools and practices in Express.js and TypeScript, enhancing productivity, code quality, and performance.
+Welcome to the Video Translator API, a powerful tool for translating and processing videos with ease. Whether you need to extract text, translate audio, or analyze video content, this API provides a comprehensive solution for all your needs.
 
-## 💡 Motivation and Intentions
-
-Developed to streamline backend development, this boilerplate is your solution for:
-
-- ✨ Reducing setup time for new projects.
-- 📊 Ensuring code consistency and quality.
-- ⚡ Facilitating rapid development with cutting-edge tools.
-- 🛡️ Encouraging best practices in security, testing, and performance.
 
 ## 🚀 Features
 
@@ -40,7 +26,7 @@ Developed to streamline backend development, this boilerplate is your solution f
 ### Step 1: 🚀 Initial Setup
 
 - Clone the repository: `git clone https://github.com/edwinhern/express-typescript-2024.git`
-- Navigate: `cd express-typescript-2024`
+- Navigate: `video-translator-rest-api`
 - Install dependencies: `npm ci`
 
 ### Step 2: ⚙️ Environment Configuration
@@ -77,11 +63,11 @@ Developed to streamline backend development, this boilerplate is your solution f
 ├── modules
 │   ├── healthCheck
 │   │   └── healthCheckRouter.ts
-│   └── user
-│       ├── userModel.ts
-│       ├── userRepository.ts
-│       ├── userRouter.ts
-│       └── userService.ts
+│   └── video
+│       ├── videoModel.ts
+│       ├── videoRepository.ts
+│       ├── videoRouter.ts
+│       └── videoService.ts
 └── server.ts
 
 9 directories, 17 files
@@ -89,6 +75,6 @@ Developed to streamline backend development, this boilerplate is your solution f
 
 ## 🤝 Feedback and Contributions
 
-We'd love to hear your feedback and suggestions for further improvements. Feel free to contribute and join us in making backend development cleaner and faster!
+We'd love to hear your feedback and suggestions for further improvements.
 
 🎉 Happy coding!
