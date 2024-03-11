@@ -7,7 +7,6 @@ import errorHandler from '@/common/middleware/errorHandler';
 import rateLimiter from '@/common/middleware/rateLimiter';
 import requestLogger from '@/common/middleware/requestLogger';
 import { env } from '@/common/utils/envConfig';
-import { healthCheckRouter } from '@/routes/healthCheck/healthCheckRouter';
 import { videoRouter } from '@/routes/video/videoRouter';
 
 const logger = pino({ name: 'server start' });
@@ -27,7 +26,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(requestLogger());
 
 // Routes
-app.use('/health-check', healthCheckRouter);
 app.use('/video', videoRouter);
 
 // Error handlers
