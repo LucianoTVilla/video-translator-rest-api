@@ -35,7 +35,7 @@
     "mkdirp": "^3.0.1",
     "mongodb": "^6.4.0",
     "mongoose": "^8.2.1",
-    "openai": "^4.28.4",
+    "openai": "^4.29.1",
     "pino-http": "^9.0.0",
     "swagger-ui-express": "^5.0.0",
     "tesseract.js": "^5.0.5",
